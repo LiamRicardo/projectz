@@ -13,6 +13,7 @@ body{
     padding: 0 10px 30px 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-gap: 20px 40px;
 }
 .heading{
     background-color: #ff0606;
@@ -21,6 +22,7 @@ body{
     padding: 30px 0;
     grid-column: 1/-1;
     text-align: center;
+
 }
 
 .heading h1{
@@ -41,10 +43,14 @@ body{
     position: relative;
     grid-template-rows:auto 1fr ;
     border-radius: 15px;
+    border: 2px solid rgb(240, 240, 240);
+    border-radius: 20px;
+    
 }
 
 .food-items img{
     position: relative;
+    height: 250px;
     width: 100%;
     border-radius: 15px 15px 0 0;
 }
@@ -80,6 +86,20 @@ h1{
     font-size: 15px;
     line-height: 28px;
     font-weight: 400;
-    align-self: start;
-    
+    align-self: stretch;
+}
+
+.buttonx{
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: yellow;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
 }

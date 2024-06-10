@@ -1,0 +1,210 @@
+/*Barra del menu*/
+body{
+    background-color: rgb(255, 0, 0);
+}
+.menu{
+    background-color: rgb(255, 255, 255);
+}
+#A {
+    display: flex;
+    color: rgb(224, 32, 32);
+    gap: 30px;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+/*botones configurables de la barra del menu*/
+
+.a1{
+ width: Auto;
+ height: auto;
+ display: inline-block;
+}
+.a2{
+    width: Auto;
+    height: auto;
+    display: inline-block;
+   }
+
+   .a3{
+    width: Auto;
+    height: auto;
+    display: inline-block;
+   }
+
+   .a4{
+    width: Auto;
+    height: auto;
+    display: inline-block;
+   }
+
+   .a5{
+    width: auto;
+    height: auto;
+    display: inline-block;
+   }
+
+.link{
+    text-decoration: none;
+    color: inherit;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    position: relative;
+}
+.link:after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: rgb(255, 174, 0);
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+.link:hover:after{
+    width:100% ;
+    right: 0;
+}
+
+/*Cuerpo y su contenido*/
+#cuerpo{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Barra final de @*/
+
+@media screen and (max-height: 300px) {
+    ul{
+        margin-top:40px ;
+    }
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+    text-decoration: none;
+    color: inherit;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+
+
+
+li:after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: rgb(255, 174, 0);
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+li:hover:after{
+    width:100% ;
+    right: 0;
+}

@@ -4,6 +4,8 @@ body{
 }
 .menu{
     background-color: rgb(255, 255, 255);
+    background-image: url('img_background/header-bg.png');
+
 }
 #A {
     display: flex;
@@ -14,6 +16,8 @@ body{
     justify-content: center;
     align-items: center;
      box-sizing: border-box;
+     
+
 }
 
 a {
@@ -77,13 +81,27 @@ a {
 
 /*Cuerpo y su contenido*/
 #cuerpo{
-    background-color: white;
+    background-image: url('img_background/header-bg.png');
+
+
 }
 
 
 
 
 
+.mcx{
+    background-color: white;
+
+}
+
+
+
+
+#repsesc{
+                  display: flex;
+    justify-content: center;
+}
 
 
 

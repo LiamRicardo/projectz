@@ -1,11 +1,10 @@
 /*Barra del menu*/
 body{
-    background-color: rgb(255, 0, 0);
+    
 }
 .menu{
-    background-color: rgb(255, 255, 255);
-    background-image: url('img_background/header-bg.png');
-
+    background-color: white;
+    
 }
 #A {
     display: flex;
@@ -16,8 +15,7 @@ body{
     justify-content: center;
     align-items: center;
      box-sizing: border-box;
-     
-
+    
 }
 
 a {
@@ -67,7 +65,7 @@ a {
     content: "";
     width: 0;
     height: 4px;
-    background-color: rgb(255, 174, 0);
+    background-color: yellow;
     position: absolute;
     bottom: 0;
     right: 50%;
@@ -81,27 +79,31 @@ a {
 
 /*Cuerpo y su contenido*/
 #cuerpo{
-    background-image: url('img_background/header-bg.png');
-
+    background-color: white;
 
 }
-
-
-
-
-
-.mcx{
+#cuerpox{
+    background-image: url('img_background/header-bg.png');
     background-color: white;
 
 }
 
-
-
+.mcx{
+    background-color: white;
+    
+    
+}
 
 #repsesc{
                   display: flex;
-    justify-content: center;
+    justify-content: right;
+       color: yellow;
+   font-size: 56px;
+   text-align: center;
 }
+
+
+
 
 
 

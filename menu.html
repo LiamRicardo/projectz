@@ -14,10 +14,13 @@
             <h1 style="color: rgb(255, 217, 0);">MundoBurger</h1>
             <h3 style="color: rgb(255, 217, 0);">&mdash; Menu &mdash;</h3>
             <div id="A">
+                <div id="userNameDisplay" style="color: rgb(255, 217, 0);"></div>
                 <div class="a1"><a href="index.html" style="color: rgb(255, 217, 0);" class="link"><b>Home</b></a></div>
                 <div class="a3"><a href="quem_somos.html" style="color: rgb(255, 217, 0);" class="link"><b>Quem somos</b></a></div>
                 <div class="a4"><a href="servicios.html" style="color: rgb(255, 217, 0);" class="link"><b>Serviços</b></a></div>
                 <div class="a5"><a href="menu.html" style="color: rgb(255, 217, 0);" class="link"><b>Menu</b></a></div>
+                <div class="a6"><a href="rewiews.html" style="color: rgb(255, 217, 0);" class="link"><b>Rewiews</b></a></div>
+                <a href="#" id="openFormBtn" style="color: rgb(255, 217, 0);"><b>Conta</b></a>
             </div>
             <HR width="100%" size="2" color="Yellow" /> 
         </div>
@@ -120,6 +123,20 @@
 
     </div>
  
+    <div id="modalForm" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <form id="userForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="name">Email:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="name">Numero de telefone:</label>
+                <input type="text" id="name" name="name" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
 
 
     <HR width="100%" size="2" color="Yellow" /> 
@@ -136,5 +153,6 @@
             </ul>
         </nav>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

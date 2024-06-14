@@ -17,15 +17,15 @@
                     <h3 style="color: rgb(255, 217, 0);">&mdash; Home &mdash;</h3> 
                   
                     
-                    <div id="A">
-
-                            <div class="logo"><div id="logo"><img src="img/logo final.jpg" alt="" width="100px" height="100px"></div></div>
-
-                        
+                    <div id="A">  
+                        <div id="userNameDisplay" style="color: rgb(255, 217, 0);"></div>
                         <div class="a1"><a href="index.html" style="color: rgb(255, 217, 0);" class="link"><b>Home</b></a></div>
                         <div class="a3"><a href="quem_somos.html" style="color: rgb(255, 217, 0);" class="link"><b>Quem somos</b></a></div>
                         <div class="a4"><a href="servicios.html" style="color: rgb(255, 217, 0);" class="link"><b>Serviços</b></a></div>
                         <div class="a5"><a href="menu.html" style="color: rgb(255, 217, 0);" class="link"><b>Menu</b></a></div>
+                        <div class="a6"><a href="rewiews.html" style="color: rgb(255, 217, 0);" class="link"><b>Rewiews</b></a></div>
+                        <a href="#" id="openFormBtn" style="color: rgb(255, 217, 0);"><b>Conta</b></a>
+
                     </div>
                     <HR width="100%" size="2" color="Yellow" /> 
                 </div>
@@ -40,7 +40,7 @@
          
          <div class="repsescb">
             <p style="color:rgb(255, 217, 0) ;"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.Consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis perferendis similique quas! Quasi quis.</b></p>
-         
+            <img src="img/logo final.jpg" alt="">
         </div>
         </div>
 
@@ -52,17 +52,32 @@
         <div class="mcx">
             <div id="mc">
                <img src="img/header.png" alt="" width="600px" height="400px">
-               <img src="img/header.png" alt="" width="600px" height="400px">
-               <img src="img/header.png" alt="" width="600px" height="400px">
+               <img src="img/oferta 2.jpg" alt="" width="600px" height="400px">
+               <img src="img/oferta 3.jpg" alt="" width="600px" height="400px">
 
               
             </div>
             <a href="menu.html" class="buttonx2">Ofertas especiales solo para Usted</a>
         </div>
-
+ 
+        
 
     </header>
 
+    <div id="modalForm" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <form id="userForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="name">Email:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="name">Numero de telefone:</label>
+                <input type="text" id="name" name="name" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
 
 
 

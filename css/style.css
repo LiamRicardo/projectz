@@ -1,9 +1,10 @@
 /*Barra del menu*/
 body{
-    
+    background-color: black;
+    color: white;
 }
 .menu{
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     
 }
 #A {
@@ -85,17 +86,17 @@ a {
 
 /*Cuerpo y su contenido*/
 #cuerpo{
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 
 }
 #cuerpox{
-    background-image: url('img_background/header-bg.png');
-    background-color: white;
+   
+    background-color: rgb(0, 0, 0);
 
 }
 
 .mcx{
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     
     
 }
@@ -103,19 +104,22 @@ a {
 #repsesc{
                   display: flex;
     justify-content: right;
-       color: yellow;
+       color: white;
    font-size: 56px;
    text-align: center;
 }
 
-
+.respeto{
+    display: flex;
+    justify-content: center;
+}
 
 
 
 #userNameDisplay {
     margin: 20px;
     font-size: 1.2em;
-    color: rgb(255, 217, 0);
+    color: white;
 }
 
 #openFormBtn {
@@ -137,17 +141,17 @@ a {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #000000;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #a0a0a0;
     width: 80%;
     max-width: 500px;
     text-align: center;
 }
 
 .closeBtn {
-    color: #aaa;
+    color: #ffffff;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -155,7 +159,7 @@ a {
 
 .closeBtn:hover,
 .closeBtn:focus {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     cursor: pointer;
 }
@@ -228,4 +232,42 @@ li:after{
 li:hover:after{
     width:100% ;
     right: 0;
+}
+
+
+
+
+
+
+
+
+
+.png {
+    position: relative; /* El contenedor debe tener una posición relativa para que los elementos absolutos se posicionen con respecto a él */
+    width: 50px;
+    height: 50px;
+    
+}
+
+.png_superpuesta {
+    position: absolute;
+    top: 20px; /* Ajusta según sea necesario */
+    left: 20px; /* Ajusta según sea necesario */
+    z-index: 1; /* Ajusta el índice z según sea necesario */
+}
+
+
+
+#cotimg{
+    flex-direction: column;
+    position: relative;
+    text-align: center; /* Alineación de contenido centrado horizontalmente */
+    display: flex; /* Flexbox para centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    
+}
+.pngx{
+    justify-items: center;
+    position: relative;
 }
